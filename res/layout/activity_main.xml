@@ -9,8 +9,16 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/idText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
-
+ 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idText"
+        android:inputType="text"
+        android:text="@string/hello_world" />
+    
 </RelativeLayout>
